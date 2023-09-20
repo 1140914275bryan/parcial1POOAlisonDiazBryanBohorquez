@@ -15,6 +15,8 @@ import parcial1POO.Reyna;
 public class Principal {
 	
 		
+		private static final String Fichas = null;
+
 		public Principal() {
 			Scanner sc = new Scanner(System.in);
 			int op;
@@ -34,7 +36,7 @@ public class Principal {
 					int fila = sc.nextInt();
 					System.out.println("Digite Columna: ");
 					String columna = sc.next();				
-					.Fichas.getMovimiento(fila, columna);
+					this.Fichas.getMovimiento(fila, columna);
 
 				}else if(op == 2) {
 					System.out.println("** POSICION FICHA**");
@@ -87,7 +89,8 @@ public class Principal {
 					int fila = sc.nextInt();
 					System.out.println("Digite Columna: ");
 					String columna = sc.next();				
-					this.Fichas.getMovimiento(fila, columna);
+					this.Fichas.getMovimiento(fila,columna);
 		        }	
 		        }
+}
 }
